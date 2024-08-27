@@ -1,0 +1,75 @@
+Fwd: Inquiry about paper submission to Nature Medicine
+Davatzikos, Christos <Christos.Davatzikos@pennmedicine.upenn.edu>
+Mon 2/19/2024 7:56 AM
+To:
+Erus, Guray <Guray.Erus@pennmedicine.upenn.edu>;
+Getka, Alexander <Alexander.Getka@Pennmedicine.upenn.edu>;
+Aidinis, George <George.Aidinis@Pennmedicine.upenn.edu>
+Cc:
+Satterthwaite, Theodore <sattertt@pennmedicine.upenn.edu>;
+Nasrallah, Ilya <Ilya.Nasrallah@pennmedicine.upenn.edu>;
+Fan, Yong <Yong.Fan@pennmedicine.upenn.edu>;
+Shou, Haochang <hshou@pennmedicine.upenn.edu>;
+Shinohara, Russell T<russell.shinohara@pennmedicine.upenn.edu>;
+Wolf, Daniel <danwolf@pennmedicine.upenn.edu>
+
+Great news, our NiChart paper will be sent out for review at NM!
+Guray, the cover letter must VERY CLEARLY indicate that we have already run a pre-inquiry by Dr.Lorenzo Righetto, so that the paper goes to him
+
+***I think that we need to immediately add more ML models, e.g SZ and Zhijian's subtypes
+
+From:
+Lorenzo Righetto <lorenzo.righetto@nature.com>
+Sent:
+Monday, February 19, 2024 4:29:16 AM
+To:
+Davatzikos, Christos <Christos.Davatzikos@pennmedicine.upenn.edu>
+Subject:
+[External] RE: Inquiry about paper submission to Nature Medicine
+Dear Christos,
+
+Thanks for sending this to me. I have read the paper with interest and I think we can send it out forformal peer review. If you decide to do so, please including the following checklists to expedite theprocess:
+
+Reporting Summary:
+https://www.nature.com/documents/nr-reporting-summary.pdf
+
+Editorial Policy Checklist:
+
+https://www.nature.com/documents/nr-editorial-policy-checklist.pdf
+
+Please note that the Reporting Summary and Editorial Policy Checklist are dynamic ‘smart pdfs’ thatmust be downloaded and completed in Adobe Reader (i.e. they cannot be opened in a web browser).If you would like to reference the guidance text as you complete the files, please access referenceversions at
+http://www.nature.com/authors/policies/availability.html#requirements
+.
+Please also submit a completed MI CLAIM checklist (
+https://www.nature.com/articles/s41591-020-1041-y
+) for MLrelated studies and make sure that the reviewers can access the code used in the study.
+Let me know if you have any questions.
+Best
+Lorenzo
+
+From:
+Davatzikos, Christos <Christos.Davatzikos@pennmedicine.upenn.edu>
+Sent:
+Monday, February 12, 2024 9:57 PM
+To:
+Lorenzo Righetto <lorenzo.righetto@nature.com>
+
+Subject:
+
+Inquiry about paper submission to Nature Medicine
+
+Dear Lorenzo, I apologize for an offline message, but I wanted to run this paper by you for feedback, before we formally submit to Nature Medicine. This is a major paper that we have been working on for over 5 years now, and I believe that
+Dear Lorenzo,
+I apologize for an offline message, but I wanted to run this paper by you for feedback, beforewe formally submit to Nature Medicine. This is a major paper that we have been working on for
+over 5 years now, and I believe that it will evolve into a major community resource. It is anextensive effort to integrate, harmonize, and analyze a diverse set of ~80,000 brain MRI scansfrom 35 studies (some of it is on-going expansion). This effort has allowed us to not only buildnormative models of brain structure in healthy and diseased populations, but also to extractrobust (to scanner/protocol/cohort variations) machine learning based imaging signatures (e.g.brain age, Alzheimer’s and schizophrenia signatures, disease subtyping, imaging signatures ofcardiometabolic risk factors (on going---not yet implemented), etc). While brain charting priorefforts with simpler methods and smaller scope exist, the current study significantly advancesthe state of the art, in our opinion. Below is an excerpt from the introduction that somewhatsummarizes these advances.
+I hope that you will find the paper interesting for consideration by NM, or else you can give ussuggestions for modifications before we submit to NM.
+Your feedback is greatly appreciated!
+Best
+Christos
+
+--paragraph---
+The main contributions of NiChart relative to prior brain charting efforts lie in: a) using and making freelyavailable current machine learning methods for image processing and ML model extraction, includingdeep learning models that perform anatomical parcellation in seconds as well as state of the art weaklysupervised deep learning methods for dissecting heterogeneity of brain aging and of various diseases;b) making available respective normative statistical summarizations, pre-trained harmonization modelsand compatible ML models from a large and diverse pooled and harmonized dataset, and allowing userto harmonize their own data with NiChart; c) providing containerized state-of-the-art pre-processingpipelines for easy installation and complete reproducibility on resources ranging from a personalcomputer to a high performance computing cluster, as well as the easy to use NiChart web portal on theAmazon Web Services (AWS) cloud,
+which eliminates the need for any local installation(
+https://neuroimagingchart.com
+)
+. Moreover, through preprocessing and harmonization tools, NiChartenables the growth of a community-driven arsenal of statistical and ML models, facilitating novelmethodology dissemination and validation.
